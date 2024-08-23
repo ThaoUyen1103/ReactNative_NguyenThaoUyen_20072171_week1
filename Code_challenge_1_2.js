@@ -10,10 +10,10 @@ versions)
 3. Create a Boolean variable 'markHigherBMI' containing information about 
 whether Mark has a higher BMI than John.*/
 
-var mark_Mass = 78;
-var mark_Height = 1.69;
-var john_Mass = 92;
-var john_Height = 1.95;
+var mark_Mass = 95;
+var mark_Height = 1.88;
+var john_Mass = 85;
+var john_Height = 1.76;
 var mark_BMI;
 var john_BMI;
 

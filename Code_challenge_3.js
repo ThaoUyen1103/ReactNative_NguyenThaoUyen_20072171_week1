@@ -20,7 +20,7 @@ Test data:
 */
 
 var Dolphins_Score = [97, 112, 101];
-var Koalas_Score = [109, 95, 123];
+var Koalas_Score = [109, 95, 106];
 
 
 var dolphinsAvg = (Dolphins_Score[0] + Dolphins_Score[1] + Dolphins_Score[2]) / 3;
@@ -37,7 +37,7 @@ if (dolphinsAvg > koalasAvg && reqScoreDol) {
 } else if (koalasAvg > dolphinsAvg && reqScoreKoa) {
     console.log("Team Koalas win!", dolphinsAvg.toFixed(1), "<", koalasAvg);
 } else if (dolphinsAvg === koalasAvg && reqScoreDol && reqScoreKoa) {
-    console.log("Draw", dolphinsAvg.toFixed(1), "=", koalasAvg);
+    console.log("Draw", dolphinsAvg.toFixed(1), "=", koalasAvg.toFixed(1));
 } else {
     console.log("No team win");
 }
